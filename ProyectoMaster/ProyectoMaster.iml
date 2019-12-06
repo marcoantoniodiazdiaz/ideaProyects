@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Arreglos" level="project" />
+    <orderEntry type="library" name="Pilas" level="project" />
+    <orderEntry type="library" name="ColasCirculares" level="project" />
+    <orderEntry type="library" name="Bicolas" level="project" />
+    <orderEntry type="library" name="ListasSimples" level="project" />
+    <orderEntry type="library" name="Colas" level="project" />
+    <orderEntry type="library" name="ListasDobles" level="project" />
+    <orderEntry type="library" name="ListasDobles1" level="project" />
+    <orderEntry type="library" name="Sorts" level="project" />
+    <orderEntry type="library" name="Arboles Binarios" level="project" />
+    <orderEntry type="library" name="2.2_Par_o_impar" level="project" />
+    <orderEntry type="library" name="AlgortRecursivo" level="project" />
+    <orderEntry type="library" name="Divisor" level="project" />
+    <orderEntry type="library" name="Factorial_I-R" level="project" />
+    <orderEntry type="library" name="FIBONACCI" level="project" />
+    <orderEntry type="library" name="Potencia" level="project" />
+    <orderEntry type="library" name="SumaMatrizRecursivo" level="project" />
+    <orderEntry type="library" name="U2.InvertirN" level="project" />
+  </component>
+</module>

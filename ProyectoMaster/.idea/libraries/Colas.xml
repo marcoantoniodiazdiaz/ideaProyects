@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Colas">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Colas/out/artifacts/Colas_jar/Colas.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

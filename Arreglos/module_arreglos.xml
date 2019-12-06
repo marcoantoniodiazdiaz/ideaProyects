@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_arreglos" default="compile.module.arreglos">
+  <dirname property="module.arreglos.basedir" file="${ant.file.module_arreglos}"/>
+  
+  <property name="module.jdk.home.arreglos" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.arreglos" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.arreglos" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.arreglos" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="arreglos.output.dir" value="${module.arreglos.basedir}/out/production/Arreglos"/>
+  <property name="arreglos.testoutput.dir" value="${module.arreglos.basedir}/out/test/Arreglos"/>
+  
+  <path id="arreglos.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="arreglos.module.production.classpath">
+    <path refid="${module.jdk.classpath.arreglos}"/>
+    <path refid="library.kotlinjavaruntime.classpath"/>
+  </path>
+  
+  <path id="arreglos.runtime.production.module.classpath">
+    <pathelement location="${arreglos.output.dir}"/>
+    <path refid="library.kotlinjavaruntime.classpath"/>
+  </path>
+  
+  <path id="arreglos.module.classpath">
+    <path refid="${module.jdk.classpath.arreglos}"/>
+    <pathelement location="${arreglos.output.dir}"/>
+    <path refid="library.kotlinjavaruntime.classpath"/>
+  </path>
+  
+  <path id="arreglos.runtime.module.classpath">
+    <pathelement location="${arreglos.testoutput.dir}"/>
+    <pathelement location="${arreglos.output.dir}"/>
+    <path refid="library.kotlinjavaruntime.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.arreglos">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.arreglos">
+    <patternset refid="excluded.from.module.arreglos"/>
+  </patternset>
+  
+  <path id="arreglos.module.sourcepath">
+    <dirset dir="${module.arreglos.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.arreglos" depends="compile.module.arreglos.production,compile.module.arreglos.tests" description="Compile module Arreglos"/>
+  
+  <target name="compile.module.arreglos.production" depends="register.custom.compilers" description="Compile module Arreglos; production classes">
+    <mkdir dir="${arreglos.output.dir}"/>
+    <javac2 destdir="${arreglos.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.arreglos}/javac">
+      <compilerarg line="${compiler.args.arreglos}"/>
+      <bootclasspath refid="arreglos.module.bootclasspath"/>
+      <classpath refid="arreglos.module.production.classpath"/>
+      <src refid="arreglos.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.arreglos"/>
+    </javac2>
+    
+    <copy todir="${arreglos.output.dir}">
+      <fileset dir="${module.arreglos.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.arreglos.tests" depends="register.custom.compilers,compile.module.arreglos.production" description="compile module Arreglos; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.arreglos" description="cleanup module">
+    <delete dir="${arreglos.output.dir}"/>
+    <delete dir="${arreglos.testoutput.dir}"/>
+  </target>
+</project>

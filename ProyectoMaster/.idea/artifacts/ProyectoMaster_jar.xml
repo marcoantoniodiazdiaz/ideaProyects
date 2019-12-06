@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ProyectoMaster:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ProyectoMaster_jar</output-path>
+    <root id="archive" name="ProyectoMaster.jar">
+      <element id="module-output" name="ProyectoMaster" />
+      <element id="extracted-dir" path="$USER_HOME$/NetBeansProjects/U2.InvertirN/dist/U2.InvertirN.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../Colas/out/artifacts/Colas_jar/Colas.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../Pilas/out/artifacts/Pilas_jar/Pilas.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../Arreglos/out/artifacts/Arreglos_jar/Arreglos.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/NetBeansProjects/FIBONACCI/dist/FIBONACCI.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/NetBeansProjects/Potencia/dist/Potencia.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/NetBeansProjects/Divisor/dist/Divisor.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../ListasDobles/out/artifacts/ListasDobles_jar/ListasDobles.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/NetBeansProjects/2.2 Par o impar/dist/2.2_Par_o_impar.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../ColasCirculares/out/artifacts/ColasCirculares_jar/ColasCirculares.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/NetBeansProjects/SumaMatrizRecursivo/dist/SumaMatrizRecursivo.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../Bicolas/out/artifacts/Bicolas_jar/Bicolas.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/NetBeansProjects/AlgortRecursivo/dist/AlgortRecursivo.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../Sorts/out/artifacts/Sorts_jar/Sorts.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../Arboles Binarios/out/artifacts/Arboles_Binarios_jar/Arboles Binarios.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/NetBeansProjects/Factorial I-R/Factorial I-R/dist/Factorial_I-R.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../ListasDoblesCirculares/out/artifacts/ListasDobles_jar/ListasDobles.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../ListasSimples/out/artifacts/ListasSimples_jar/ListasSimples.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ColasCirculares">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../ColasCirculares/out/artifacts/ColasCirculares_jar/ColasCirculares.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

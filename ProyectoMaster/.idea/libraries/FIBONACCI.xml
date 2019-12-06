@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="FIBONACCI">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/NetBeansProjects/FIBONACCI/dist/FIBONACCI.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

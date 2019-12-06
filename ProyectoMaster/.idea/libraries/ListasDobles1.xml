@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ListasDobles1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../ListasDoblesCirculares/out/artifacts/ListasDobles_jar/ListasDobles.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

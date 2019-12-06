@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Bicolas:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Bicolas_jar</output-path>
+    <root id="archive" name="Bicolas.jar">
+      <element id="module-output" name="Bicolas" />
+    </root>
+  </artifact>
+</component>

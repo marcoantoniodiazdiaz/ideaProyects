@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ListasDobles:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ListasDobles_jar</output-path>
+    <root id="archive" name="ListasDobles.jar">
+      <element id="module-output" name="ListasDobles" />
+    </root>
+  </artifact>
+</component>

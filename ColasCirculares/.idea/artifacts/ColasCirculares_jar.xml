@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ColasCirculares:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ColasCirculares_jar</output-path>
+    <root id="archive" name="ColasCirculares.jar">
+      <element id="module-output" name="ColasCirculares" />
+    </root>
+  </artifact>
+</component>

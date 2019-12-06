@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Bicolas">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Bicolas/out/artifacts/Bicolas_jar/Bicolas.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
